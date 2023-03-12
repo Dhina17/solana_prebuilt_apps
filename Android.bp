@@ -1,0 +1,39 @@
+android_app_import {
+	name: "FakeDApp",
+	apk: "fakedapp.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "FakeWallet",
+	apk: "fakewallet.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "SeedWallet",
+	apk: "seedvault-fakewallet.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "SeedVaultImpl",
+	apk: "seedvault-impl.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
